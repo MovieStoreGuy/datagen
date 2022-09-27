@@ -9,7 +9,7 @@ First of all, to run this project, you will need to install [golang](https://go.
 
 Once that is installed and you're running on either a linux or windows machine, you can do the following:
 ```shell
-go install github.com/MovieStoreGuy/datagen@latest
+go install github.com/MovieStoreGuy/datagen/cmd/datagen@latest
 datagen
 ```
 
