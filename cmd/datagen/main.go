@@ -83,6 +83,8 @@ func main() {
 	log.Info("Saved excell document", zap.Stringp("location", flagSaved))
 }
 
+// ToExcellAxis is not fit for any use, so this will need to be addressed in future.
+// BUG(MovieStoreGuy): This will break if col is above 26 or uses a negative value
 func ToExcellAxis(col, row int) string {
 	collums := []byte{'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'}
 
